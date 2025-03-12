@@ -1,5 +1,5 @@
 function registerUser(users, string) {
-    if (!string.includes("@") || (!string.endsWith(".com") && !string.endsWith(".vn"))) {
+    if (!string.endsWith("@gmail.com")) {
         return `Email khong hop le`;
     }
     if (users.includes(string)) {
